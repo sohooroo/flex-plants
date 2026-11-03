@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    color: #333333;
+    background-color: #f6fbf4;
+}
+h1,
+h2,
+h3 {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: normal;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+h2 {
+    margin: 40px 0 16px 0;
+    font-size: 28px;
+    color: #2d6a4f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: #2d6a4f;
+    color: #fff;
+}
+.logo {
+    font-size: 28px;
+}
+.menu {
+    display: flex;
+    gap: 24px;
+}
+.menu li a:hover {
+    color: #ffd166;
+}
+
+
+.hero {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    background-color: #d8f3dc;
+}
+.hero h2 {
+    margin: 0;
+    font-size: 40px;
+}
+.sub {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #52796f;
+}
+.btn-wrap {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #2d6a4f;
+    color: #fff;
+}
+.line {
+    background-color: #fff;
+    color: #2d6a4f;
+    border: 2px solid #2d6a4f;
+}
+
+
+.cards {
+    display: flex;
+    gap: 24px;
+}
+.card {
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+    background-color: #fff;  
+    border: 1px solid #d8f3dc;
+}
+.card:hover {
+    border: 1px solid #2d6a4f;
+}
+.icon {
+    font-size: 48px;
+    text-align: center;
+}
+.card h3 {
+    font-size: 22px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: auto;
+}
+.price button {
+    padding: 6px 14px;
+    border: none;
+    background-color: #f4a261;
+    color: #fff;
+}
+.price button:hover {
+    background-color: #e76f51;
+}
+
+
+.step {
+    display: flex;
+    gap: 20px;
+}
+.step li {
+    flex: 1;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+.num {
+    background-color: #2d6a4f;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 15px;
+}
+.step h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 30px;
+}
+.tags li {
+    font-size: 14px;
+    color: #2d6a4f;
+    background-color: #cfe9dd;
+    padding: 5px 10px;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 150px;
+    gap: 16px;
+}
